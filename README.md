@@ -1,18 +1,15 @@
 # Django REST framework: Quickstart
 
----
 Simple API built using the DRF quickstart docs.
 
 # Install requirements 
 
----
 ```commandline
 pip install -r requirements.txt
 ```
 
 # Run migrations
 
----
 ```commandline
 cd tutorial
 python manage.py migrate
@@ -20,14 +17,12 @@ python manage.py migrate
 
 # Create admin
 
----
 ```commandline
 python manage.py createsuperuser --email admin@example.com --username admin
 ```
 
 # Run server
 
----
 ```commandline
 python manage.py runserver
 ```
